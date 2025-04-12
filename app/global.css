@@ -1,0 +1,17 @@
+* {
+    font-family: "JetBrains Mono", "Noto Sans SC", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", system-ui, -apple-system, emoji, monospace;
+    font-feature-settings: "liga" off, "calt" off !important;
+    -webkit-font-smoothing: antialiased !important;
+    text-rendering: optimizeLegibility !important;
+}
+
+html, body, root {
+    margin: 0 auto 0 auto;
+    min-width: 100dvw;
+    max-width: 100dvw;
+    width: 100dvw;
+    height: 100dvh;
+    min-height: 100dvh;
+    max-height: 100dvh;
+    overflow: hidden;
+}
