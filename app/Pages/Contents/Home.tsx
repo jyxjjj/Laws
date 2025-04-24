@@ -78,8 +78,8 @@ export default function Content() {
                 <Typography>
                     <Link href='https://www.desmg.com/#/' newTab={false} fontWeight={800} >DESMG</Link>&nbsp;All rights reserved.
                 </Typography>
-                <Typography><Link href={MIIT_URL}>{MIIT_RID}</Link></Typography>
-                <Typography><Link href={CPS_URL}>{CPS_RID_STR}</Link></Typography>
+                <Typography><Link href={import.meta.env.VITE_MIIT_URL}>{import.meta.env.VITE_MIIT_RID}</Link></Typography>
+                <Typography><Link href={import.meta.env.VITE_CPS_URL}>{import.meta.env.VITE_CPS_RID_STR}</Link></Typography>
             </Paper>
         </Laws>
     );
