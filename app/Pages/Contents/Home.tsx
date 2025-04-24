@@ -10,6 +10,7 @@ import Link from '../../Components/Link';
 
 export default function Content() {
     const copyYear = new Date().getFullYear();
+    console.log(import.meta.env);
     return (
         <Laws>
             <Typography variant="h2">个人收藏法律法规存档数据库</Typography>
